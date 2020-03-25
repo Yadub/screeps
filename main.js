@@ -13,9 +13,7 @@ module.exports.loop = function () {
         }
     }
 
-    /** Automatic Spawning:
-          - add builder spawner spawner
-    **/
+    /** Automatic Spawning **/
 
     var maxHarvesters = 2;
     var maxUpgraders = 3;
@@ -56,15 +54,9 @@ module.exports.loop = function () {
             {align: 'left', opacity: 0.8});
     }
 
-    /** End of Automatic Spawning ------------------------------------------ **/
+    /** Automatic Extension Construction  **/
 
-
-    /** Start of Automatic Extension Construction  **/
-
-
-    /** End of Automatic Extension Construction -----------------------------**/
-
-    /**
+    /** Terrain find code
 
     const terrain = Game.map.getRoomTerrain(mainRoomName);
     switch(terrain.get(pointOfInterest[0],pointOfInterest[1])) {
@@ -75,6 +67,10 @@ module.exports.loop = function () {
         case 0:
             break;
     }
+
+    **/
+
+    /** Tower defense code
 
     var tower = Game.getObjectById('e74458bb9a5e55923df5a0d2');
     if(tower) {
