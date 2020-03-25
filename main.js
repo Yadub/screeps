@@ -61,7 +61,7 @@ module.exports.loop = function () {
 
     /** Start of Automatic Extension Construction  **/
 
-    console.log('What the fuck!?')
+    console.log('test sync functionality');
 
 
     /** End of Automatic Extension Construction -----------------------------**/
