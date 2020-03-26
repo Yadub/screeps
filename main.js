@@ -76,7 +76,7 @@ module.exports.loop = function() {
 
     /** Automatic Extension Construction  **/
 
-    if Object.keys(Game.constructionSites) {
+    if (Object.keys(Game.constructionSites) == false) {
         //Construct only if there are no imcomplete construction sites
         var siteConstructed = false;
     }
